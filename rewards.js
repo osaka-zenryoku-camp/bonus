@@ -1,5 +1,5 @@
 // 特典が完成したら、該当する項目の title / description / url を変更してください。
-// url が空欄の間は「準備中」、URLを入れると「公開中」と受け取りボタンが表示されます。
+// url が空欄の間はボタンを表示せず、URLを入れると受け取りボタンが表示されます。
 const REWARDS = [
   {
     title: "もう1度学べる！大阪全力合宿復習ガイド",
@@ -30,8 +30,8 @@ const REWARDS = [
     url: "https://sns-million-roadmap.kosukeaicheat.chatgpt.site",
   },
   {
-    title: "属人性が出せる台本作成AI",
-    titleParts: ["属人性が出せる", "台本作成AI"],
+    title: "あなたの経験が、武器になる。属人性を引き出す台本AI",
+    titleParts: ["あなたの経験が、武器になる。", "属人性を引き出す台本AI"],
     description: "ただいま準備中です。公開までしばらくお待ちください。",
     descriptionParts: ["ただいま準備中です。", "公開までしばらくお待ちください。"],
     url: "",

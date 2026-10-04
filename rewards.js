@@ -32,8 +32,8 @@ const REWARDS = [
   {
     title: "あなたの経験が、武器になる。属人性を引き出す台本AI",
     titleParts: ["あなたの経験が、武器になる。", "属人性を引き出す台本AI"],
-    description: "ただいま準備中です。公開までしばらくお待ちください。",
-    descriptionParts: ["ただいま準備中です。", "公開までしばらくお待ちください。"],
+    description: "",
+    descriptionParts: [],
     url: "https://reel-story-studio.kosukeaicheat.chatgpt.site",
   },
 ];

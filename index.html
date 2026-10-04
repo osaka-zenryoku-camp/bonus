@@ -3,24 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#15233f" />
+    <meta name="theme-color" content="#f7f1e4" />
     <meta name="description" content="大阪全力合宿の参加者限定・5大特典を受け取れるページです。" />
     <title>大阪全力合宿｜5大特典</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main>
-      <header class="hero">
-        <p class="eyebrow">SPECIAL BONUS</p>
-        <h1>大阪全力合宿<br /><span>5大特典</span></h1>
-        <p class="lead">特典は完成したものから、こちらのページで順次お受け取りいただけます。</p>
+    <main class="poster">
+      <header class="cover-hero">
+        <h1 class="sr-only">AI ONE インスタ部門 大阪全力合宿 5大特典</h1>
       </header>
-      <section class="rewards" aria-labelledby="rewards-title">
-        <h2 id="rewards-title" class="sr-only">特典一覧</h2>
-        <div id="reward-list"></div>
-      </section>
-      <footer><p>このページをブックマークして、公開までお待ちください。</p></footer>
+
+      <div class="content-shell">
+        <p class="lead">特典は完成したものから、こちらのページで順次お受け取りいただけます。</p>
+
+        <section class="rewards" aria-labelledby="rewards-title">
+          <h2 id="rewards-title" class="sr-only">特典一覧</h2>
+          <div id="reward-list"></div>
+        </section>
+
+        <footer>
+          <p>このページをブックマークして、公開までお待ちください。</p>
+        </footer>
+      </div>
+
+      <div class="city-footer" aria-hidden="true"></div>
     </main>
+
     <script src="rewards.js"></script>
     <script src="app.js"></script>
   </body>

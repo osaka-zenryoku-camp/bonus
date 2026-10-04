@@ -33,10 +33,6 @@ REWARDS.forEach((reward, index) => {
   title.className = "reward-title";
   appendPhraseParts(title, reward.titleParts, reward.title);
 
-  const status = document.createElement("span");
-  status.className = "status";
-  status.textContent = isReady ? "公開中" : "準備中";
-
   const description = document.createElement("p");
   description.className = "reward-description";
   appendPhraseParts(description, reward.descriptionParts, reward.description);
@@ -53,6 +49,6 @@ REWARDS.forEach((reward, index) => {
     content.append(link);
   }
 
-  card.append(number, content, status);
+  card.append(number, content);
   list.append(card);
 });
